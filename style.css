@@ -44,7 +44,19 @@ ul li {
 }
 
 .col-4 {
-    max-width: 33.33%;
+    width: 33.33%;
+}
+
+.col-7 {
+    width: calc((100% / 12 ) * 7);
+}
+
+.col-5 {
+    width: calc((100% / 12 ) * 5);
+}
+
+.col-6 {
+    width: 50%;
 }
 
 /* NAV BAR */
@@ -55,7 +67,7 @@ ul li {
 
 .row.nav {
     max-width: 100%;
-    height: 70px;
+    min-height: 70px;
     padding: 0 20px;
 }
 
@@ -97,13 +109,13 @@ ul li {
     line-height: 0;
     color: white;
     background-color: #0061FF;
+    border: 1px solid #0061FF;
 }
 
 .jumbo {
     height: 665px;
     background-color: #B4D0E7;
 }
-
 
 h1 {
     font-size: 75px;
@@ -120,4 +132,192 @@ h1 {
 
 .free-trial {
     padding-bottom: 15px;
+}
+
+/* Plan Section */
+
+.plan {
+    border: 1px solid black;
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    column-gap: 10px;
+}
+
+.plans-box {
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+
+.plans-title {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+.billing-plan {
+    padding-bottom: 20px;
+}
+
+.billing-plan input:nth-child(2) {
+    margin-left: 15px;
+}
+
+.plan-type {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.plan-description {
+    border-bottom: 1px solid black;
+    padding: 30px 25px;
+}
+
+.plan-benefits {
+    border-top: 0px;
+}
+
+.plan-name p:nth-child(1) {
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.plan-name p:nth-child(2) {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.plan-name p:nth-child(3) {
+    color: grey;
+    padding-bottom: 5px;
+}
+
+.plan-content p {
+    padding-bottom: 15px;
+}
+
+.plan-content p:nth-child(1){
+    padding-top: 35px;
+}
+
+.plan-content p:nth-child(3){
+    padding-bottom: 35px;
+}
+
+.buy-now {
+    padding-top: 25px;
+}
+
+.plan-benefits {
+    padding: 30px 25px;
+}
+
+.benefits-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.benefits-description li{
+    padding-top: 25px;
+}
+
+/* Team Box */
+
+.plan-enterprise {
+    padding-top: 50px;
+}
+
+.enterprise-title {
+    border: 1px solid;
+}
+
+.enterprise-title p{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.enterprise-description {
+    padding: 25px 35px;
+    border: 1px solid;
+    border-top: 0;
+}
+
+.enterprise-description-content p:nth-child(1) {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.enterprise-description-content p:nth-child(2) {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.enterprise-description-content p:nth-child(3) {
+    font-size: 16px;
+}
+
+/* Partnership Section */
+
+.partnership-box .col-5{
+    padding: 30px 40px;
+}
+
+.partnership-box p:nth-child(1) {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.partnership-box p:nth-child(2) {
+    padding-bottom: 25px;
+}
+
+.button-alt {
+    padding: 15px 15px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* Dropbox Business Section */
+
+.dropbox-business {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.business-box {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.dropbox-business h2 {
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+.dropbox-business img {
+    width: 100%;
+    height: 100%;
+}
+
+.dropbox-business p:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+/* Teams Section */
+
+.teams h2 {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.teams a {
+    text-decoration: underline;
 }

@@ -5,6 +5,7 @@
 }
 
 body {
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -55,8 +56,14 @@ ul li {
     width: calc((100% / 12 ) * 5);
 }
 
-.col-6 {
-    width: 50%;
+.fa-check {
+    color: #0E69FF;
+}
+
+.fa-arrow-down {
+    padding-top: 50px;
+    font-size: 45px;
+    color: black;
 }
 
 /* NAV BAR */
@@ -94,7 +101,7 @@ ul li {
     vertical-align: middle;
 }
 
-/* Main Content */
+/* Main Content e Jumbo */
 
 .container-lg {
     max-width: 1160px;
@@ -134,14 +141,13 @@ h1 {
     padding-bottom: 15px;
 }
 
-/* Plan Section */
+/* Dropbox Plans Section */
 
 .plan {
-    border: 1px solid black;
-    width: 90%;
+    border: 1px solid #EBEBEC;
+    width: 95%;
     height: 1000px;
     margin: 0 auto;
-    column-gap: 10px;
 }
 
 .plans-box {
@@ -165,11 +171,16 @@ h1 {
 .plan-type {
     text-align: center;
     padding: 10px 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #EBEBEC;
+}
+
+.plan hr {
+    width: 20%;
+    border: 1px solid #EBEBEC;
+    margin-left: 25px;
 }
 
 .plan-description {
-    border-bottom: 1px solid black;
     padding: 30px 25px;
 }
 
@@ -209,6 +220,10 @@ h1 {
     padding-top: 25px;
 }
 
+.buy-now a {
+    text-decoration: underline;
+}
+
 .plan-benefits {
     padding: 30px 25px;
 }
@@ -223,14 +238,14 @@ h1 {
     padding-top: 25px;
 }
 
-/* Team Box */
+/* Dropbox Plans Teams Section */
 
 .plan-enterprise {
     padding-top: 50px;
 }
 
 .enterprise-title {
-    border: 1px solid;
+    border: 1px solid #EBEBEC;
 }
 
 .enterprise-title p{
@@ -240,7 +255,7 @@ h1 {
 
 .enterprise-description {
     padding: 25px 35px;
-    border: 1px solid;
+    border: 1px solid #EBEBEC;
     border-top: 0;
 }
 
@@ -306,12 +321,99 @@ h1 {
 }
 
 .dropbox-business p:nth-child(1) {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
     padding-bottom: 15px;
 }
 
 /* Teams Section */
+
+.teams .col-8 a {
+    padding-bottom: 50px;
+}
+
+.square-box [class^="square"] {
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    line-height: 250px;
+}
+
+.square-box {
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+.square-box img {
+    width: 70%;
+    vertical-align: middle;
+    filter: invert(100%);
+}
+
+.rectangle-box {
+    width: 40%;
+    height: 500px;
+    float: left;
+    background-color: #F5F5F5;
+}
+
+.rectangle-content {
+    padding: 50px 50px;    
+}
+
+.rectangle-logo img {
+    width: 30%;
+}
+
+.rectangle-description p:nth-child(1) {
+    padding: 40px 0;
+}
+
+.rectangle-content hr {
+    margin-top: 25px;
+    width: 10%;
+    background-color: #E4E4E6;
+}
+
+.square-teams img {
+    background-color: black;
+}
+
+.square-teams-l1 {
+    outline: 10px solid #D0E9CD;
+    outline-offset: -10px;
+    background-color: #A2D39B;
+}
+
+.square-teams-l2 {
+    background-color: #61082B;
+}
+
+.square-teams-l3 {
+    background-color: #0093CE;
+}
+
+.square-teams-l4 {
+    background-color: #FF1C1C;
+}
+
+.square-teams-r1 {
+    background-color: #D5001F;
+}
+
+.square-teams-r2 {
+    background-color: #B4D0E7;
+}
+
+.square-teams-r3 {
+    background-color: #0D2481;
+}
+
+.square-teams-r4 {
+    background-color: #FFD830;
+}
 
 .teams h2 {
     font-size: 40px;
@@ -320,4 +422,84 @@ h1 {
 
 .teams a {
     text-decoration: underline;
+}
+
+/* Business Trial Section */
+
+.business-trial {
+    background-color: #B4D0E7;
+}
+
+.business-trial-box .col-8 {
+    padding: 80px 0;
+}
+
+.business-trial-box .col-4 {
+    padding: 80px 0;
+}
+
+.business-trial-title {
+    width: 70%;
+    font-size: 26px;
+    color: #61082B;
+}
+
+/* FAQ Section*/
+
+.faq-box {
+    padding: 150px 0;
+}
+
+.faq-box h2 {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.faq-box .col-12:not(:nth-child(1)) {
+    border-bottom: 1px solid #DEDEE0;
+}
+
+.faq-box .col-12:nth-child(2) {
+    border-top: 1px solid #DEDEE0;
+}
+
+.faq-box p {
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+#arrow {
+    float: right;
+}
+
+/* Footer */
+
+footer .container {
+    background-color: black;
+    color: white;
+}
+
+.col-footer {
+    padding: 100px 0;
+}
+
+.col-footer li:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.col-footer a {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.col-footer {
+    width: 20%;
+}
+
+.language-selector {
+    width: 10%;
+    padding: 40px 0;
+    border-top: 1px solid grey;
 }
